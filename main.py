@@ -48,12 +48,6 @@ class GetIssueOverPlace(Resource):
         return make_response(getIssueOverPlace(data))
 
 
-class GetIssueAccount(Resource):
-    def get(self):
-        data = request.headers.get("issue")
-        return make_response(getIssueAccounts(data))
-
-
 class GetIssueTimeLine(Resource):
     def get(self):
         data = request.headers.get("issue")
@@ -73,7 +67,6 @@ class GetIssueImages(Resource):
 
 api.add_resource(GetSummary, "/api/summary")
 api.add_resource(GetIssueOverTime, "/api/issue/time")
-api.add_resource(GetIssueAccount, "/api/issue/account")
 api.add_resource(GetIssueTimeLine, "/api/issue/timeline")
 api.add_resource(GetIssueOverPlace, "/api/issue/place")
 api.add_resource(ListIssues, "/api/issues/list")
