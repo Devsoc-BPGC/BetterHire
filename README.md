@@ -1,6 +1,6 @@
 # BetterHire
 
-Throughout this century the Tech Industry has always been a safe harbor for competence and merit. However, the fact that some people feel disenfranchised is not an acceptable situation. We belive that increasing the transparency of the decision making process is key to making sure this is never the case.
+Throughout this century the Tech Industry has always been a safe harbor for competence and merit. However, the fact that some people feel disenfranchised is not an acceptable situation. We belive that increasing the transparency of the decision making process is key to making sure this is never the case in the future.
 
 
 ### Purpose
